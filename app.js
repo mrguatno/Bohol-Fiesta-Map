@@ -11,7 +11,7 @@ const defaultZoom = isMobileDevice() ? 8 : 9;
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mrguatno/clh34zc4v008y01r89t6wglp5',
-  center: [124.18, 9.7], // Longitude and Latitude of Bohol
+  center: [124.18, 9.1], // Longitude and Latitude of Bohol
   zoom: defaultZoom
 });
 
